@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849BBB7318D6DC3500983A2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849BBB7218D6DC3500983A2B /* Foundation.framework */; };
+		849BBB7518D6DC3500983A2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849BBB7418D6DC3500983A2B /* CoreGraphics.framework */; };
+		849BBB7718D6DC3500983A2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849BBB7618D6DC3500983A2B /* UIKit.framework */; };
+		849BBB7D18D6DC3500983A2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 849BBB7B18D6DC3500983A2B /* InfoPlist.strings */; };
+		849BBB7F18D6DC3500983A2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BBB7E18D6DC3500983A2B /* main.m */; };
+		849BBB8318D6DC3500983A2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BBB8218D6DC3500983A2B /* AppDelegate.m */; };
+		849BBB8518D6DC3500983A2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849BBB8418D6DC3500983A2B /* Images.xcassets */; };
+		849BBB8C18D6DC3500983A2B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849BBB8B18D6DC3500983A2B /* XCTest.framework */; };
+		849BBB8D18D6DC3500983A2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849BBB7218D6DC3500983A2B /* Foundation.framework */; };
+		849BBB8E18D6DC3500983A2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849BBB7618D6DC3500983A2B /* UIKit.framework */; };
+		849BBB9618D6DC3500983A2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 849BBB9418D6DC3500983A2B /* InfoPlist.strings */; };
+		849BBB9818D6DC3500983A2B /* MegaShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BBB9718D6DC3500983A2B /* MegaShopTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849BBB8F18D6DC3500983A2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849BBB6718D6DC3500983A2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849BBB6E18D6DC3500983A2B;
+			remoteInfo = MegaShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849BBB6F18D6DC3500983A2B /* MegaShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849BBB7218D6DC3500983A2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		849BBB7418D6DC3500983A2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		849BBB7618D6DC3500983A2B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		849BBB7A18D6DC3500983A2B /* MegaShop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MegaShop-Info.plist"; sourceTree = "<group>"; };
+		849BBB7C18D6DC3500983A2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		849BBB7E18D6DC3500983A2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849BBB8018D6DC3500983A2B /* MegaShop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MegaShop-Prefix.pch"; sourceTree = "<group>"; };
+		849BBB8118D6DC3500983A2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849BBB8218D6DC3500983A2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849BBB8418D6DC3500983A2B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		849BBB8A18D6DC3500983A2B /* MegaShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegaShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849BBB8B18D6DC3500983A2B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		849BBB9318D6DC3500983A2B /* MegaShopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MegaShopTests-Info.plist"; sourceTree = "<group>"; };
+		849BBB9518D6DC3500983A2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		849BBB9718D6DC3500983A2B /* MegaShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MegaShopTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849BBB6C18D6DC3500983A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849BBB7518D6DC3500983A2B /* CoreGraphics.framework in Frameworks */,
+				849BBB7718D6DC3500983A2B /* UIKit.framework in Frameworks */,
+				849BBB7318D6DC3500983A2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849BBB8718D6DC3500983A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849BBB8C18D6DC3500983A2B /* XCTest.framework in Frameworks */,
+				849BBB8E18D6DC3500983A2B /* UIKit.framework in Frameworks */,
+				849BBB8D18D6DC3500983A2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849BBB6618D6DC3500983A2B = {
+			isa = PBXGroup;
+			children = (
+				849BBB7818D6DC3500983A2B /* MegaShop */,
+				849BBB9118D6DC3500983A2B /* MegaShopTests */,
+				849BBB7118D6DC3500983A2B /* Frameworks */,
+				849BBB7018D6DC3500983A2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849BBB7018D6DC3500983A2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849BBB6F18D6DC3500983A2B /* MegaShop.app */,
+				849BBB8A18D6DC3500983A2B /* MegaShopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849BBB7118D6DC3500983A2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				849BBB7218D6DC3500983A2B /* Foundation.framework */,
+				849BBB7418D6DC3500983A2B /* CoreGraphics.framework */,
+				849BBB7618D6DC3500983A2B /* UIKit.framework */,
+				849BBB8B18D6DC3500983A2B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		849BBB7818D6DC3500983A2B /* MegaShop */ = {
+			isa = PBXGroup;
+			children = (
+				849BBB8118D6DC3500983A2B /* AppDelegate.h */,
+				849BBB8218D6DC3500983A2B /* AppDelegate.m */,
+				849BBB8418D6DC3500983A2B /* Images.xcassets */,
+				849BBB7918D6DC3500983A2B /* Supporting Files */,
+			);
+			path = MegaShop;
+			sourceTree = "<group>";
+		};
+		849BBB7918D6DC3500983A2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849BBB7A18D6DC3500983A2B /* MegaShop-Info.plist */,
+				849BBB7B18D6DC3500983A2B /* InfoPlist.strings */,
+				849BBB7E18D6DC3500983A2B /* main.m */,
+				849BBB8018D6DC3500983A2B /* MegaShop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849BBB9118D6DC3500983A2B /* MegaShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				849BBB9718D6DC3500983A2B /* MegaShopTests.m */,
+				849BBB9218D6DC3500983A2B /* Supporting Files */,
+			);
+			path = MegaShopTests;
+			sourceTree = "<group>";
+		};
+		849BBB9218D6DC3500983A2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849BBB9318D6DC3500983A2B /* MegaShopTests-Info.plist */,
+				849BBB9418D6DC3500983A2B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849BBB6E18D6DC3500983A2B /* MegaShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849BBB9B18D6DC3500983A2B /* Build configuration list for PBXNativeTarget "MegaShop" */;
+			buildPhases = (
+				849BBB6B18D6DC3500983A2B /* Sources */,
+				849BBB6C18D6DC3500983A2B /* Frameworks */,
+				849BBB6D18D6DC3500983A2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MegaShop;
+			productName = MegaShop;
+			productReference = 849BBB6F18D6DC3500983A2B /* MegaShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849BBB8918D6DC3500983A2B /* MegaShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849BBB9E18D6DC3500983A2B /* Build configuration list for PBXNativeTarget "MegaShopTests" */;
+			buildPhases = (
+				849BBB8618D6DC3500983A2B /* Sources */,
+				849BBB8718D6DC3500983A2B /* Frameworks */,
+				849BBB8818D6DC3500983A2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849BBB9018D6DC3500983A2B /* PBXTargetDependency */,
+			);
+			name = MegaShopTests;
+			productName = MegaShopTests;
+			productReference = 849BBB8A18D6DC3500983A2B /* MegaShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849BBB6718D6DC3500983A2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SaM;
+				TargetAttributes = {
+					849BBB8918D6DC3500983A2B = {
+						TestTargetID = 849BBB6E18D6DC3500983A2B;
+					};
+				};
+			};
+			buildConfigurationList = 849BBB6A18D6DC3500983A2B /* Build configuration list for PBXProject "MegaShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 849BBB6618D6DC3500983A2B;
+			productRefGroup = 849BBB7018D6DC3500983A2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849BBB6E18D6DC3500983A2B /* MegaShop */,
+				849BBB8918D6DC3500983A2B /* MegaShopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849BBB6D18D6DC3500983A2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849BBB7D18D6DC3500983A2B /* InfoPlist.strings in Resources */,
+				849BBB8518D6DC3500983A2B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849BBB8818D6DC3500983A2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849BBB9618D6DC3500983A2B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849BBB6B18D6DC3500983A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849BBB8318D6DC3500983A2B /* AppDelegate.m in Sources */,
+				849BBB7F18D6DC3500983A2B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849BBB8618D6DC3500983A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849BBB9818D6DC3500983A2B /* MegaShopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849BBB9018D6DC3500983A2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849BBB6E18D6DC3500983A2B /* MegaShop */;
+			targetProxy = 849BBB8F18D6DC3500983A2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849BBB7B18D6DC3500983A2B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849BBB7C18D6DC3500983A2B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		849BBB9418D6DC3500983A2B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849BBB9518D6DC3500983A2B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849BBB9918D6DC3500983A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		849BBB9A18D6DC3500983A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849BBB9C18D6DC3500983A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MegaShop/MegaShop-Prefix.pch";
+				INFOPLIST_FILE = "MegaShop/MegaShop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		849BBB9D18D6DC3500983A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MegaShop/MegaShop-Prefix.pch";
+				INFOPLIST_FILE = "MegaShop/MegaShop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		849BBB9F18D6DC3500983A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MegaShop.app/MegaShop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MegaShop/MegaShop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MegaShopTests/MegaShopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		849BBBA018D6DC3500983A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MegaShop.app/MegaShop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MegaShop/MegaShop-Prefix.pch";
+				INFOPLIST_FILE = "MegaShopTests/MegaShopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849BBB6A18D6DC3500983A2B /* Build configuration list for PBXProject "MegaShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849BBB9918D6DC3500983A2B /* Debug */,
+				849BBB9A18D6DC3500983A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849BBB9B18D6DC3500983A2B /* Build configuration list for PBXNativeTarget "MegaShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849BBB9C18D6DC3500983A2B /* Debug */,
+				849BBB9D18D6DC3500983A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849BBB9E18D6DC3500983A2B /* Build configuration list for PBXNativeTarget "MegaShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849BBB9F18D6DC3500983A2B /* Debug */,
+				849BBBA018D6DC3500983A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849BBB6718D6DC3500983A2B /* Project object */;
+}
