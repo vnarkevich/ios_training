@@ -19,6 +19,7 @@
 		849BBB8E18D6DC3500983A2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849BBB7618D6DC3500983A2B /* UIKit.framework */; };
 		849BBB9618D6DC3500983A2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 849BBB9418D6DC3500983A2B /* InfoPlist.strings */; };
 		849BBB9818D6DC3500983A2B /* MegaShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BBB9718D6DC3500983A2B /* MegaShopTests.m */; };
+		849E079A18D8A79300A0ECAA /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E079918D8A79300A0ECAA /* Product.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		849BBB9318D6DC3500983A2B /* MegaShopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MegaShopTests-Info.plist"; sourceTree = "<group>"; };
 		849BBB9518D6DC3500983A2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		849BBB9718D6DC3500983A2B /* MegaShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MegaShopTests.m; sourceTree = "<group>"; };
+		849E079818D8A79300A0ECAA /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		849E079918D8A79300A0ECAA /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +110,14 @@
 		849BBB7818D6DC3500983A2B /* MegaShop */ = {
 			isa = PBXGroup;
 			children = (
+				849E079718D8A74700A0ECAA /* Classes */,
 				849BBB8118D6DC3500983A2B /* AppDelegate.h */,
 				849BBB8218D6DC3500983A2B /* AppDelegate.m */,
 				849BBB8418D6DC3500983A2B /* Images.xcassets */,
 				849BBB7918D6DC3500983A2B /* Supporting Files */,
 			);
-			path = MegaShop;
+			name = MegaShop;
+			path = MegaShop/Classes;
 			sourceTree = "<group>";
 		};
 		849BBB7918D6DC3500983A2B /* Supporting Files */ = {
@@ -142,6 +147,15 @@
 				849BBB9418D6DC3500983A2B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849E079718D8A74700A0ECAA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				849E079818D8A79300A0ECAA /* Product.h */,
+				849E079918D8A79300A0ECAA /* Product.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849E079A18D8A79300A0ECAA /* Product.m in Sources */,
 				849BBB8318D6DC3500983A2B /* AppDelegate.m in Sources */,
 				849BBB7F18D6DC3500983A2B /* main.m in Sources */,
 			);
@@ -439,6 +454,7 @@
 				849BBB9D18D6DC3500983A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849BBB9E18D6DC3500983A2B /* Build configuration list for PBXNativeTarget "MegaShopTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +463,7 @@
 				849BBBA018D6DC3500983A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
