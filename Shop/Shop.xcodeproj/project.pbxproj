@@ -19,6 +19,7 @@
 		8496FE3218D99BA700F82617 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8496FE1A18D99BA700F82617 /* UIKit.framework */; };
 		8496FE3A18D99BA700F82617 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8496FE3818D99BA700F82617 /* InfoPlist.strings */; };
 		8496FE3C18D99BA700F82617 /* ShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496FE3B18D99BA700F82617 /* ShopTests.m */; };
+		8496FE4818D99E0200F82617 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496FE4718D99E0200F82617 /* Product.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		8496FE3718D99BA700F82617 /* ShopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShopTests-Info.plist"; sourceTree = "<group>"; };
 		8496FE3918D99BA700F82617 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8496FE3B18D99BA700F82617 /* ShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopTests.m; sourceTree = "<group>"; };
+		8496FE4618D99E0200F82617 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		8496FE4718D99E0200F82617 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		8496FE1C18D99BA700F82617 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
+				8496FE4518D99D9200F82617 /* Classes */,
 				8496FE2518D99BA700F82617 /* AppDelegate.h */,
 				8496FE2618D99BA700F82617 /* AppDelegate.m */,
 				8496FE2818D99BA700F82617 /* Images.xcassets */,
@@ -142,6 +146,15 @@
 				8496FE3818D99BA700F82617 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8496FE4518D99D9200F82617 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8496FE4618D99E0200F82617 /* Product.h */,
+				8496FE4718D99E0200F82617 /* Product.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8496FE4818D99E0200F82617 /* Product.m in Sources */,
 				8496FE2718D99BA700F82617 /* AppDelegate.m in Sources */,
 				8496FE2318D99BA700F82617 /* main.m in Sources */,
 			);
