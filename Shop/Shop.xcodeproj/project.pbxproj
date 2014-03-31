@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8433680E18DC2EA500F16CB0 /* ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433680D18DC2EA500F16CB0 /* ProductCategory.m */; };
 		8496FE1718D99BA700F82617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8496FE1618D99BA700F82617 /* Foundation.framework */; };
 		8496FE1918D99BA700F82617 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8496FE1818D99BA700F82617 /* CoreGraphics.framework */; };
 		8496FE1B18D99BA700F82617 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8496FE1A18D99BA700F82617 /* UIKit.framework */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8433680C18DC2EA500F16CB0 /* ProductCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCategory.h; sourceTree = "<group>"; };
+		8433680D18DC2EA500F16CB0 /* ProductCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCategory.m; sourceTree = "<group>"; };
 		8496FE1318D99BA700F82617 /* Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8496FE1618D99BA700F82617 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8496FE1818D99BA700F82617 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -153,6 +156,8 @@
 			children = (
 				8496FE4618D99E0200F82617 /* Product.h */,
 				8496FE4718D99E0200F82617 /* Product.m */,
+				8433680C18DC2EA500F16CB0 /* ProductCategory.h */,
+				8433680D18DC2EA500F16CB0 /* ProductCategory.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 				8496FE4818D99E0200F82617 /* Product.m in Sources */,
 				8496FE2718D99BA700F82617 /* AppDelegate.m in Sources */,
 				8496FE2318D99BA700F82617 /* main.m in Sources */,
+				8433680E18DC2EA500F16CB0 /* ProductCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Shop/Shop-Prefix.pch";
 				INFOPLIST_FILE = "Shop/Shop-Info.plist";
@@ -386,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Shop/Shop-Prefix.pch";
 				INFOPLIST_FILE = "Shop/Shop-Info.plist";
@@ -453,6 +461,7 @@
 				8496FE4118D99BA700F82617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8496FE4218D99BA700F82617 /* Build configuration list for PBXNativeTarget "ShopTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +470,7 @@
 				8496FE4418D99BA700F82617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

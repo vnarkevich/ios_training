@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Product.h"
+#import "ProductCategory.h"
 
 @implementation AppDelegate
 
@@ -16,6 +18,17 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    Product *product = [[Product alloc] init];
+    Product *product1 = [product getProductById:(NSInteger)2];
+    if (product1 != nil) {
+        NSLog(product1.description);
+    }
+    
+    ProductCategory *productCategory = [[ProductCategory alloc] init];
+    
+    NSMutableArray *categoryProducts = [[NSMutableArray alloc] initWithObjects:productCategory.getProductsByCategoryId:(NSInteger)1];
+    
     return YES;
 }
 

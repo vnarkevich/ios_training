@@ -10,17 +10,20 @@
 
 @interface Product : NSObject
 
+@property NSInteger categoryId;
 @property NSInteger productId;
-@property NSString *name;
-@property NSDecimalNumber *price;
-@property NSDate *startDate;
-@property NSDate *endDate;
-@property BOOL *isActive;
+@property(copy) NSString *name;
+@property(retain) NSDecimalNumber *price;
+@property(retain) NSDate *startDate;
+@property(retain) NSDate *endDate;
+@property BOOL isActive;
 
--(id)initWithProductId:(NSInteger*)productId;
+-(id)initWithProductId:(NSInteger)productId;
 
--(id)initWithProductId:(NSInteger*)productId andName:(NSString*)name;
+-(id)initWithProductId:(NSInteger)productId andName:(NSString*)name;
 
--(void)getProductById:(NSInteger*)productId;
+-(Product*)getProductById:(NSInteger)productId;
+
+-(NSMutableArray*)getAllProducts;
 
 @end
