@@ -9,7 +9,15 @@
 #import "ProductCategory.h"
 #import "Product.h"
 
+@interface ProductCategory()
+
+@property(retain) NSMutableArray *products;
+
+@end
+
 @implementation ProductCategory
+
+@synthesize products = _products;
 
 //Default constructor
 - (id)init{
@@ -20,13 +28,14 @@
     return self;
 }
 
--(NSMutableArray*)getProductsByCategoryId:(NSInteger)categoryId{
+//Get products by category
+-(NSArray*)getProductsByCategoryId:(NSInteger)categoryId{
     Product *prod = [[Product alloc] init];
-    NSMutableArray *products = [[NSMutableArray alloc] initWithObjects: prod.getAllProducts, nil];
+    NSArray *products = [[NSArray alloc] initWithArray:prod.getAllProducts];
     [prod release];
-    
-    NSMutableArray *categoryProducts = [NSMutableArray init];
-    
+        
+    NSMutableArray *categoryProducts = [[NSMutableArray alloc] init];
+        
     int count = [products count];
     for (int index = 0; index < count; index++) {
         Product *product = [products objectAtIndex:index];
@@ -35,8 +44,14 @@
         }
     }
     [products release];
-    
+        
     return [[categoryProducts retain] autorelease];
+}
+
+- (void)dealloc
+{
+    [_products release];
+    [super dealloc];
 }
 
 @end

@@ -12,8 +12,7 @@
 
 @property NSInteger categoryId;
 @property(copy) NSString *name;
-@property(retain) NSMutableArray *products;
 
--(NSMutableArray*)getProductsByCategoryId:(NSInteger)categoryId;
+-(NSArray*)getProductsByCategoryId:(NSInteger)categoryId;
 
 @end

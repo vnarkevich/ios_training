@@ -7,6 +7,7 @@
 //
 
 #import "Product.h"
+#import "NSString+Additions.h"
 
 @interface Product()
 
@@ -44,7 +45,7 @@
     return self;
 }
 
-
+// Get product by Id
 -(Product*)getProductById:(NSInteger)productId {
     [self.products removeAllObjects];
     
@@ -52,12 +53,8 @@
     prod.price = [NSDecimalNumber decimalNumberWithDecimal:[[NSNumber numberWithFloat:45.45f] decimalValue]];
     prod.isActive = YES;
     
-    NSDateFormatter *dateFormater = [[NSDateFormatter alloc] init];
-    [dateFormater setDateFormat:@"MM-DD-yyyy"];
-    NSDate *startDate = [dateFormater dateFromString:@"01-01-2014"];
-    prod.startDate = startDate;
-    NSDate *endDate = [dateFormater dateFromString:@"12-31-2014"];
-    prod.endDate = endDate;
+    prod.startDate = @"01/01/2014".toUSDate;
+    prod.endDate = @"12/31/2014".toUSDate;
     
     [self.products addObject:prod];
     [prod release];

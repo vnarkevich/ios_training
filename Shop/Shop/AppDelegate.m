@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "Product.h"
 #import "ProductCategory.h"
+#import "NSDate+DisplayFormats.h"
 
 @implementation AppDelegate
 
@@ -23,11 +24,17 @@
     Product *product1 = [product getProductById:(NSInteger)2];
     if (product1 != nil) {
         NSLog(product1.description);
+        NSLog(product1.startDate.toUSDateString);
+        NSLog(product1.endDate.toInternationalDateString);
     }
+    [product release];
     
     ProductCategory *productCategory = [[ProductCategory alloc] init];
     
-    NSMutableArray *categoryProducts = [[NSMutableArray alloc] initWithObjects:productCategory.getProductsByCategoryId:(NSInteger)1];
+    NSArray *categoryProducts = [[NSArray alloc] initWithArray: [productCategory getProductsByCategoryId:(NSInteger)1]];
+    NSString *str = [NSString stringWithFormat:@"Products in category:%d", [categoryProducts count]];
+    NSLog(str);
+    [categoryProducts release];
     
     return YES;
 }
