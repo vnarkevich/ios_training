@@ -26,7 +26,11 @@
         NSLog(product1.description);
         NSLog(product1.startDate.toUSDateString);
         NSLog(product1.endDate.toInternationalDateString);
+        [product1 release];
     }
+    
+    NSString *descr = [product getDescriptionById:(NSInteger)2];
+    NSLog(descr);
     [product release];
     
     ProductCategory *productCategory = [[ProductCategory alloc] init];
@@ -35,6 +39,10 @@
     NSString *str = [NSString stringWithFormat:@"Products in category:%d", [categoryProducts count]];
     NSLog(str);
     [categoryProducts release];
+    
+    NSString *catDescr = [productCategory getDescriptionById:(NSInteger)1];
+    NSLog(catDescr);
+    [productCategory release];
     
     return YES;
 }

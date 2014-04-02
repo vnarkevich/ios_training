@@ -7,12 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ICommon.h"
 
-@interface ProductCategory : NSObject
+@interface ProductCategory : NSObject<ICommon>
 
 @property NSInteger categoryId;
 @property(copy) NSString *name;
 
 -(NSArray*)getProductsByCategoryId:(NSInteger)categoryId;
+
+-(ProductCategory*)getCategoryById:(NSInteger)Id;
 
 @end

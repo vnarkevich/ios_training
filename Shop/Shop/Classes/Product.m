@@ -80,6 +80,14 @@
     return self.products;
 }
 
+-(NSString*)getDescriptionById:(NSInteger)Id {
+    Product *prod = [self getProductById:(NSInteger)Id];
+    if (prod != nil) {
+        return [prod description];
+    }
+    return @"";
+}
+
 -(NSString*)description{
     return [NSString stringWithFormat:@"Product: %d %@ %@", self.productId, self.name, self.price];
 }

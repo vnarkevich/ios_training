@@ -12,12 +12,14 @@
 @interface ProductCategory()
 
 @property(retain) NSMutableArray *products;
+@property(retain) NSMutableArray *productCategories;
 
 @end
 
 @implementation ProductCategory
 
 @synthesize products = _products;
+@synthesize productCategories = _productCategories;
 
 //Default constructor
 - (id)init{
@@ -46,6 +48,36 @@
     [products release];
         
     return [[categoryProducts retain] autorelease];
+}
+
+-(ProductCategory*)getCategoryById:(NSInteger)Id{
+    [self.productCategories removeAllObjects];
+    
+    ProductCategory *productCategory = [[ProductCategory alloc] init];
+    productCategory.name = @"Tablets";
+    [self.productCategories addObject:productCategory];
+    [productCategory release];
+
+    int count = [_productCategories count];
+    for (int index = 0; index < count; index++) {
+        ProductCategory *cat = [_productCategories objectAtIndex:index];
+        if (cat.categoryId == Id) {
+            return [[cat retain] autorelease];
+        }
+    }
+    return nil;
+}
+
+-(NSString*)getDescriptionById:(NSInteger)Id {
+    ProductCategory *cat = [self getCategoryById:(NSInteger)Id];
+    if (cat != nil) {
+        return [cat description];
+    }
+    return @"";
+}
+
+-(NSString*)description{
+    return [NSString stringWithFormat:@"Product: %d %@", self.categoryId, self.name];
 }
 
 - (void)dealloc

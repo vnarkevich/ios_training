@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ICommon.h"
 
-@interface Product : NSObject
+@interface Product : NSObject<ICommon>
 
 @property NSInteger categoryId;
 @property NSInteger productId;
@@ -19,11 +20,8 @@
 @property BOOL isActive;
 
 -(id)initWithProductId:(NSInteger)productId;
-
 -(id)initWithProductId:(NSInteger)productId andName:(NSString*)name;
-
 -(Product*)getProductById:(NSInteger)productId;
-
 -(NSMutableArray*)getAllProducts;
 
 @end

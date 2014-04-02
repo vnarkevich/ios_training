@@ -57,6 +57,7 @@
 		8496FE3B18D99BA700F82617 /* ShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopTests.m; sourceTree = "<group>"; };
 		8496FE4618D99E0200F82617 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		8496FE4718D99E0200F82617 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		84971CCD18EC65FA00F10742 /* ICommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICommon.h; sourceTree = "<group>"; };
 		8499419118EAE132002D699E /* NSDate+DisplayFormats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DisplayFormats.h"; sourceTree = "<group>"; };
 		8499419218EAE132002D699E /* NSDate+DisplayFormats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DisplayFormats.m"; sourceTree = "<group>"; };
 		8499419418EAE248002D699E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -173,6 +174,7 @@
 				8499419518EAE248002D699E /* Constants.m */,
 				8499419718EAE7C0002D699E /* NSString+Additions.h */,
 				8499419818EAE7C0002D699E /* NSString+Additions.m */,
+				84971CCD18EC65FA00F10742 /* ICommon.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
